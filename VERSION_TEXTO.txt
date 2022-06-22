@@ -109,6 +109,9 @@ git commit --amend
 // para guardar y salir
 :wq
 
+README EN GITHUB /*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
+
+https://pandao.github.io/editor.md/en.html
 
 
 DOCUMENTACION /*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/

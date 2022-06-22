@@ -7,6 +7,7 @@
   * [ERROR INDEX](#ERROR-INDEX)
   * [ADICIONAL (FALTA DOCUMENTAR)](#ADICIONAL-(FALTA-DOCUMENTAR))
   * [EDITOR VIND](#EDITOR-VIND)
+  * [README EN GITHUB](#README-EN-GITHUB)
   * [DOCUMENTACION](#DOCUMENTACION)
 
 ### CONFIGURACION DE INICIO
@@ -116,8 +117,14 @@ git commit --amend
 // para guardar y salir
 :wq
 
+```
+### README EN GITHUB
 
 ```
+https://pandao.github.io/editor.md/en.html
+
+```
+
 ### DOCUMENTACION
 
 ```
