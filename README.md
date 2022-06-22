@@ -1,10 +1,20 @@
-GUIA DE GITHUB
+# GUIA GIT HUB
 
-CONFIGURACION DE INICIO /*/*/*/*/*/*/*/*/*/*/*/*/
+**Indice**
+  * [CONFIGURACION DE INICIO](#CONFIGURACION-DE-INICIO)
+  * [COMANDOS GIT](#COMANDOS-GIT)
+  * [DETALLES DE REPOSITORIOS](#DETALLES-DE-REPOSITORIOS)
+  * [ERROR INDEX](#ERROR-INDEX)
+  * [ADICIONAL (FALTA DOCUMENTAR)](#ADICIONAL-(FALTA-DOCUMENTAR))
+  * [EDITOR VIND](#EDITOR-VIND)
+  * [DOCUMENTACION](#DOCUMENTACION)
 
+### CONFIGURACION DE INICIO
+
+```
 // insertar datos de perfil (obligatorio)
-git config --global user.name "Bailon"
-git config --global user.email paucarmontesbailon@gmail.com
+git config --global user.name "Alex"
+git config --global user.email alex7320k@gmail.com
 
 // ver datos ingresados
 git config --global user.name 
@@ -13,8 +23,12 @@ git config --global user.email
 // ver configuraciones realizadas
 git config --global --list
 
-COMANDOS GIT /*/*/*/*/*/*/*/*/*/*/*/*/
+```
 
+
+### COMANDOS GIT
+
+```
 // iniciar el proyecto 
 git init
 
@@ -51,36 +65,41 @@ git push origin master
 git pull origin master
 
 
-
 // eliminar archivos
 git rm miarchivo.php
 
 // eliminar carpetas
 git rm -r micarpeta
+```
+### DETALLES DE REPOSITORIOS
 
-CONFIGURAR EL GITHUB/*/*/*/*/*/*/*/*/*/*/*/*/
-
+```
 // eliminar acceso a repositorios
 git remote rm origin
 
 // lista de repositorios disponible
 git remote -v 
 
+```
+### ERROR INDEX
 
-ERROR INDEX /*/*/*/*/*/*//
-
+```
 // elimiar dicho archivo
 rm -f .git/index.lock
 
+```
+### ADICIONAL (FALTA DOCUMENTAR)
 
----------------------1--------------------------------
+```
 GIT PULL <link de su repositorio> = cambios hechos en github actualizarlos en local
 GIT TAG <FECHA Y VERSION> -m "titulo" (nos permite especificar versiones del proyecto)
 GIT PUSH --TAGS = SUbira nuestra version al github
 GIT CLONE <link de repositorio > = clonas el proyecto desde github
 
+```
+### EDITOR VIND
 
-EDITOR VIND /*/*/*/*/*/*/*/*/*/*/*/*/
+```
 "para cambiar descripcion de alguna version"
 
 // ingresar a la consola
@@ -98,8 +117,10 @@ git commit --amend
 :wq
 
 
+```
+### DOCUMENTACION
 
------------------------------------------------------
-DOCUMENTACION
-
+```
 https://bluuweb.github.io/tutorial-github/guia/fundamentos.html#comandos-basicos
+
+```
